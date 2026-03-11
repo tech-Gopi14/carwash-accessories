@@ -8,8 +8,10 @@ data.forEach(product => {
 
 container.innerHTML += `
 <div class="product">
-<h2>${product.name}</h2>
-<p>Price: ${product.price}</p>
+<h2>${product.product_name}</h2>
+<p>Quantity: ${product.quantity}</p>
+<p>Price: ₹${product.price_in_inr}</p>
+<p>Category: ${product.category}</p>
 </div>
 `;
 
