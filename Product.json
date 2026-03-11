@@ -1,0 +1,38 @@
+[
+  {
+    "product_name": "Car Wash Shampoo",
+    "quantity": "100ml",
+    "price_in_inr": 200,
+    "category": "Exterior"
+  },
+  {
+    "product_name": "Dashboard Polish",
+    "quantity": "100ml",
+    "price_in_inr": 200,
+    "category": "Interior"
+  },
+  {
+    "product_name": "Tyre Polisher",
+    "quantity": "100ml",
+    "price_in_inr": 150,
+    "category": "Wheels"
+  },
+  {
+    "product_name": "Wheel Polish",
+    "quantity": "100ml",
+    "price_in_inr": 200,
+    "category": "Wheels"
+  },
+  {
+    "product_name": "Welcome Sheets (Paper Mats)",
+    "quantity": "20 sheets",
+    "price_in_inr": 100,
+    "category": "Interior"
+  },
+  {
+    "product_name": "Microfiber Cloth (300 GSM)",
+    "quantity": "1 Piece",
+    "price_in_inr": 150,
+    "category": "Accessories"
+  }
+]
