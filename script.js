@@ -7,12 +7,13 @@ const container = document.getElementById("products");
 data.forEach(product => {
 
 container.innerHTML += `
-<div>
+<div class="product">
 <h2>${product.name}</h2>
-<p>${product.price}</p>
+<p>Price: ${product.price}</p>
 </div>
 `;
 
 });
 
-});
+})
+.catch(error => console.log(error));
