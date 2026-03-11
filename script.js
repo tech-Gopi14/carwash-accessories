@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 fetch("products.json")
 .then(response => response.json())
 .then(data => {
@@ -18,4 +20,6 @@ container.innerHTML += `
 });
 
 })
-.catch(error => console.log(error));
+.catch(error => console.error("Error loading products:", error));
+
+});
